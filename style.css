@@ -1,10 +1,69 @@
-body{
+
+*{
+margin: 0;
+padding: 0;
+}
+h2{
+    text-align: center;
+    color: #2c3e50;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+}
+form{
+    max-width: 400px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(red, green, blue, alpha);
+    font-family: Arial, Helvetica, sans-serif;
+}
+form label{
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #34495e;
+}
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 14px;
+    transition: border-color 0.3s;
+}
+form textarea{
+    height: 100px;
+    resize: vertical;
+}
+form button{
+    width: 100%;
+    padding: 12px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+form button:hover{
+    background-color: #2980b9;
+}
+.confirmation {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 25px;
+    background-color: #e8f8f0;
+    border: 1px solid #2ecc71;
+    border-radius: 10px;
+    text-align: center;
     font-family: Arial, sans-serif;
-    margin: 40px;
 }
-input, textarea{
-    width: 300px;
-}
-button{
-    padding: 8px 15px;
+.confirmation h2 {
+    color: #27ae60;
 }
